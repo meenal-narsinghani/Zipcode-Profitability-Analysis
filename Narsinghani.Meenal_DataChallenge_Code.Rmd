@@ -1,6 +1,5 @@
 ---
-title: "Capital One Data Challenge"
-subtitle: "Zipcode Profitability Analysis"
+title: "Zipcode Profitability Analysis"
 author: Meenal Narsinghani
 output:
   html_document:
