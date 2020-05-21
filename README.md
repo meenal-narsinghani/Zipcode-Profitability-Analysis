@@ -1,4 +1,4 @@
-## NY Zipcode Profitability Analysis
+## NYC Zipcode Profitability Analysis
 **Analyzing the AirBnB revenue and Zillow cost datasets to identify favorable zip codes to invest in**
 
 #### I. Problem Description
@@ -45,25 +45,23 @@ Here is the final list of zipcodes that should be considered for investment -
 #### VII. Next Steps
 
   1. **Additional data procurement**
-    i. Including more zipcodes into analysis
-       We have AirBnb Listing data for 166 zipcodes(with information on 2BR properties available). However, due to non-availability of the Zillow Cost data, we were able to carried out analysis for only 24 zipcodes (that is only about 15% of zipcodes). Procurement of this data could help make better recommendations about the profitable zipcodes across New York City
-    ii. Better approach to estimating revenue figures
-        The 2 approaches used here to estimate the revenue/year/listing have their onw shortcomings.
-        Taking 75% occupancy for all properties across all zipcodes overestimates the revenue (since less popular zipcodes may not have 75% occupancy throughout a year)
-        Taking number of reviews as an approximation for the number of bookings mades underestimates the revenue (as not all guests will write a review)
-        If we could obtain the booking information for the listings, estimation of revenue could be more accurate. OR Consider creating a model that will help in predicting the occupancy rate based on key influential factors.
+  
+   i. Including more zipcodes into analysis
+      We have AirBnb Listing data for 166 zipcodes(with information on 2BR properties available). However, due to non-availability of the Zillow Cost data, we were able to carried out analysis for only 24 zipcodes (that is only about 15% of zipcodes). Procurement of this data could help make better recommendations about the profitable zipcodes across New York City
+   ii. Better approach to estimating revenue figures
+       The 2 approaches used here to estimate the revenue/year/listing have their onw shortcomings.
+       Taking 75% occupancy for all properties across all zipcodes overestimates the revenue (since less popular zipcodes may not have 75% occupancy throughout a year)
+       Taking number of reviews as an approximation for the number of bookings mades underestimates the revenue (as not all guests will write a review)
+       If we could obtain the booking information for the listings, estimation of revenue could be more accurate. OR Consider creating a model that will help in predicting the occupancy rate based on key influential factors.
 
   2. **Better outlier treatment for price**
-  Considering the nature and scope of this analysis, we have considered any price/night figure 3 standard deviations above mean as an outlier, this may have caused dropping of luxurious properties.
-
-    Price depends multiple factors like - property type, room type, amenetities, etc. While deciding if a price/night value for a listing is a data recording error or not, we need t consider all such factors.
-
+  
+   Considering the nature and scope of this analysis, we have considered any price/night figure 3 standard deviations above mean as an outlier, this may have caused dropping of luxurious properties.
+   Price depends multiple factors like - property type, room type, amenetities, etc. While deciding if a price/night value for a listing is a data recording error or not, we need t consider all such factors.
     A model that clusters similar properties together based on these price-influencing factors and provide us an estimate of a resonable price for such properties, then we will be able to identify erroneous price information.
 
   3. **Customer Review and Review Scores analysis**
-
     Currently, we have considered only number of reviews as a metric to identify popular zipcodes. Analysis of customer reviews and making use of review scores can be included to select favorable zipcodes
 
   4. **Property Cost prediction**
-
     We have used the maximum cost observed in last 5 years as the cost estimate for year 2019. However, we can build a time-series model to better predict cost for coming years
