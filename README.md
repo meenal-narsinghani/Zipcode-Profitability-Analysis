@@ -63,7 +63,9 @@ Here is the final list of zipcodes that should be considered for investment -
     A model that clusters similar properties together based on these price-influencing factors and provide us an estimate of a resonable price for such properties, then we will be able to identify erroneous price information.
 
   3. **Customer Review and Review Scores analysis**
-    Currently, we have considered only number of reviews as a metric to identify popular zipcodes. Analysis of customer reviews and making use of review scores can be included to select favorable zipcodes
+      
+      Currently, we have considered only number of reviews as a metric to identify popular zipcodes. Analysis of customer reviews and making use of review scores can be included to select favorable zipcodes
 
   4. **Property Cost prediction**
-    We have used the maximum cost observed in last 5 years as the cost estimate for year 2019. However, we can build a time-series model to better predict cost for coming years
+      
+      We have used the maximum cost observed in last 5 years as the cost estimate for year 2019. However, we can build a time-series model to better predict cost for coming years
