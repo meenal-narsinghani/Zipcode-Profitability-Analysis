@@ -52,12 +52,27 @@ The analytical approach followed to address this business problem comprises of t
         * Generating “Estimated Revenue/Year” field
         
       B. Zillow Cost Dataset
-          * Dataset filtering
-          * Restructuring data
-          * Estimating median cost over years
-          * Missing values treatment
-          * Cost estimation for 2019
+         * Dataset filtering
+         * Restructuring data
+         * Estimating median cost over years
+         * Missing values treatment
+         * Cost estimation for 2019
+   
+   3. Analytical Dataset creation
+   4. Deep Dive Analysis
+   
+     In order to determine the zipcodes to invest in we need to analyze following factors -
 
+          1. Popularity/High Demand: Based on -
+      
+              * a. most reviewed properties
+              * b. number of properties available
+              
+          2. Price per night 
+          3. Cost of property 
+          4. Estimated revenue
+      
+         
 #### VI. Conclusion
 
 Considering all the factors analyzed above, we will select the zipcodes that satisfy maximum number of conditions.
