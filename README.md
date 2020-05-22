@@ -42,7 +42,7 @@ The analytical approach followed to address this business problem comprises of t
 
   1. Dataset Import
   2. Data Wrangling
-     A. AirBnb Listings Dataset
+    A. AirBnb Listings Dataset
         * Data Subseting
         * Formatting data
         * Filtering & Subsetting
