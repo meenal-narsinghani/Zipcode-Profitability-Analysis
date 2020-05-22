@@ -8,9 +8,11 @@ Our client is a real estate company that has a niche in purchasing properties to
 The client has already concluded that two bedroom properties are the most profitable. However, they want to identify the zip codes are the best to invest in.
 
 #### II. Objective
+
 The objective of this analysis is to build a data product that assists the client in identifying the zipcodes that are favorable and will generate the most profit on short term rentals within New York City.
 
 #### III. Assumptions
+
 The following assumptions have been made while implementing this data model -
 
 * The investor will pay for the property in cash (i.e. no mortgage/interest rate will need to be accounted for).
@@ -34,6 +36,7 @@ Refer to the [R notebook](https://meenal-narsinghani.github.io/Zipcode-Profitabi
 
 
 #### VI. Conclusion
+
 Considering all the factors analyzed above, we will select the zipcodes that satisfy maximum number of conditions.
 
 Here is the final list of zipcodes that should be considered for investment -
@@ -45,14 +48,13 @@ Here is the final list of zipcodes that should be considered for investment -
 #### VII. Next Steps
 
   1. **Additional data procurement**
-  
-   i. Including more zipcodes into analysis
-      We have AirBnb Listing data for 166 zipcodes(with information on 2BR properties available). However, due to non-availability of the Zillow Cost data, we were able to carried out analysis for only 24 zipcodes (that is only about 15% of zipcodes). Procurement of this data could help make better recommendations about the profitable zipcodes across New York City
-   ii. Better approach to estimating revenue figures
-       The 2 approaches used here to estimate the revenue/year/listing have their onw shortcomings.
-       Taking 75% occupancy for all properties across all zipcodes overestimates the revenue (since less popular zipcodes may not have 75% occupancy throughout a year)
-       Taking number of reviews as an approximation for the number of bookings mades underestimates the revenue (as not all guests will write a review)
-       If we could obtain the booking information for the listings, estimation of revenue could be more accurate. OR Consider creating a model that will help in predicting the occupancy rate based on key influential factors.
+    i. Including more zipcodes into analysis
+       We have AirBnb Listing data for 166 zipcodes(with information on 2BR properties available). However, due to non-availability of the Zillow Cost data, we were able to carried out analysis for only 24 zipcodes (that is only about 15% of zipcodes). Procurement of this data could help make better recommendations about the profitable zipcodes across New York City
+    ii. Better approach to estimating revenue figures
+        The 2 approaches used here to estimate the revenue/year/listing have their onw shortcomings.
+        Taking 75% occupancy for all properties across all zipcodes overestimates the revenue (since less popular zipcodes may not have 75% occupancy throughout a year)
+        Taking number of reviews as an approximation for the number of bookings mades underestimates the revenue (as not all guests will write a review)
+        If we could obtain the booking information for the listings, estimation of revenue could be more accurate. OR Consider creating a model that will help in predicting the occupancy rate based on key influential factors.
 
   2. **Better outlier treatment for price**
   
