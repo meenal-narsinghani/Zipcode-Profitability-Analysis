@@ -1,7 +1,11 @@
 ## NYC Zipcode Profitability Analysis
 **Analyzing the AirBnB revenue and Zillow cost datasets to identify favorable zip codes to invest in**
 
-### Refer to the [R notebook](https://meenal-narsinghani.github.io/Zipcode-Profitability-Analysis/Narsinghani.Meenal_DataChallenge_Code.html) to know more about the problem statement, data sources, approach used, findings and insights derived and final recommendations made.
+***
+
+#### Refer to the [R notebook](https://meenal-narsinghani.github.io/Zipcode-Profitability-Analysis/Narsinghani.Meenal_DataChallenge_Code.html) to know more about the problem statement, data sources, approach used, findings and insights derived and final recommendations made.
+
+***
 
 #### I. Problem Description
 
@@ -34,7 +38,17 @@ We have used 2 datasets in our analysis -
 
 #### V. Analytical Approach
 
+The analytical approach followed to address this business problem comprises of the following steps:
 
+  1. Dataset Import
+  2. Data Wrangling
+     A. AirBnb Listings Dataset
+        * Data Subseting
+        * Formatting data
+        * Filtering & Subsetting
+        * Missing values treatment
+        * Univariate analysis & outlier treatment
+        * Generating “Estimated Revenue/Year” field
 
 #### VI. Conclusion
 
