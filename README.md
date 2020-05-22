@@ -42,13 +42,21 @@ The analytical approach followed to address this business problem comprises of t
 
   1. Dataset Import
   2. Data Wrangling
-    A. AirBnb Listings Dataset
+      
+      A. AirBnb Listings Dataset
         * Data Subseting
         * Formatting data
         * Filtering & Subsetting
         * Missing values treatment
         * Univariate analysis & outlier treatment
         * Generating “Estimated Revenue/Year” field
+        
+      B. Zillow Cost Dataset
+          * Dataset filtering
+          * Restructuring data
+          * Estimating median cost over years
+          * Missing values treatment
+          * Cost estimation for 2019
 
 #### VI. Conclusion
 
